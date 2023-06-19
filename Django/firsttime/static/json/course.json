@@ -1,0 +1,209 @@
+[
+    {
+        "model": "user.course",
+        "pk": "1",
+        "fields": {
+            "card_image": "https://st4.depositphotos.com/14431644/38518/i/600/depositphotos_385182826-stock-photo-remotely-access-and-control-of.jpg",
+            "card_title": "Communication",
+            "card_text": "Learn about Communication.",
+            "title": "What is Communication soft skills ?",
+            "description": "Communication soft skills refer to a set of interpersonal abilities that facilitate effective and successful communication with others. These skills are essential in various aspects of life, including personal relationships, professional environments, and social interactions. Communication soft skills involve both verbal and non-verbal communication, as well as active listening and empathy.",
+            "contents": {
+            "type1": "Effective Verbal Communication: The ability to express thoughts, ideas, and information clearly and confidently using spoken words.",
+            "type2": "Active Listening: Being fully present and engaged in a conversation, paying attention to the speaker's words, tone, and non-verbal cues, and demonstrating understanding through appropriate responses.",
+            "type3": "Non-Verbal Communication: Understanding and utilizing body language, facial expressions, gestures, and eye contact to convey messages and enhance understanding.",
+            "type4": "Empathy: The capacity to understand and share the feelings and perspectives of others, allowing for better connection and rapport.",
+            "type5": "Emotional Intelligence: The ability to recognize, understand, and manage one's own emotions and the emotions of others in a way that fosters effective communication and relationships.",
+            "type6": "Conflict Resolution: The skill to handle disagreements or conflicts constructively, finding mutually acceptable solutions through effective communication and negotiation.",
+            "type7": "Clarity and Conciseness: The capability to convey information in a clear and concise manner, avoiding ambiguity and unnecessary complexity.",
+            "type8": "Adaptability: The flexibility to adjust communication style and approach based on the needs, preferences, and cultural backgrounds of different individuals or groups.",
+            "type9": "Feedback and Constructive Criticism: The capacity to provide feedback and constructive criticism in a respectful and helpful manner, while also being open to receiving feedback from others.",
+            "type10": "Presentation Skills: The ability to deliver information or ideas in a structured and engaging manner, using visual aids, storytelling, and effective speaking techniques."
+            }
+        }
+    },
+    {
+        "model": "user.course",
+        "pk": "2",
+        "fields": {
+            "card_image": "https://img.freepik.com/free-photo/business-hands-joined-together-teamwork_53876-30575.jpg",
+            "card_title": "Collaboration",
+            "card_text": "Learn about Collaboration.",
+            "title": "What is Collaboration  soft skills ?",
+            "description": "Collaboration soft skills are the abilities and qualities that enable individuals to work effectively with others towards a common goal. Collaboration involves cooperation, teamwork, and the ability to communicate and coordinate efforts with fellow team members. These skills are crucial in today's interconnected and collaborative work environments.",
+            "contents": {
+            "type1": "Communication: The ability to express ideas, opinions, and information clearly and effectively, and actively listen to others to foster understanding and facilitate collaboration.",
+            "type2": "Active Listening: Being fully present and attentive while others are speaking, seeking to understand their perspectives, and providing thoughtful responses.",
+            "type3": "Emotional Intelligence: The capacity to understand and manage one's own emotions, as well as to recognize and empathize with the emotions of others, fostering positive and productive relationships.",
+            "type4": "Flexibility and Adaptability: Being open to new ideas, different approaches, and changing circumstances, and being willing to adjust one's own work style and priorities to align with the needs of the team.",
+            "type5": "Conflict Resolution: The skill to manage conflicts and disagreements constructively, seeking win-win solutions and maintaining positive relationships within the team.",
+            "type6": "Trustworthiness: Demonstrating reliability, integrity, and trust in working with others, honoring commitments, and maintaining confidentiality.",
+            "type7": "Problem Solving: The ability to analyze challenges, identify creative solutions, and contribute to problem-solving efforts within the team.",
+            "type8": "Time Management: Efficiently managing one's own time and priorities, meeting deadlines, and respecting others' time by being punctual and responsive.",
+            "type9": "Respect and Inclusion: Valuing and respecting diverse perspectives, experiences, and ideas, creating an inclusive environment where everyone feels valued and heard.",
+            "type10": "Leadership and Followership: Being able to take on leadership roles when necessary, as well as being an active and supportive team member, understanding the importance of both leading and following in a collaborative setting."
+            }
+        }
+    },
+    {
+        "model": "user.course",
+        "pk": "3",
+        "fields": {
+            "card_image": "https://st4.depositphotos.com/1001599/27599/v/600/depositphotos_275996430-stock-illustration-collaboration-concept-vector-illustration.jpg",
+            "card_title": "Problem-solving",
+            "card_text": "Learn about Problem-solving.",
+            "title": "What is Problem-solving soft skills ?",
+            "description": "Problem-solving soft skills refer to the cognitive and interpersonal abilities that enable individuals to identify, analyze, and find effective solutions to complex problems. These skills involve critical thinking, creativity, decision-making, and effective communication to address challenges and obstacles encountered in various personal and professional contexts.",
+            "contents": {
+            "type1": "Analytical Thinking: The ability to break down complex problems into smaller components, analyze information, and identify patterns or connections to gain a deeper understanding of the issue at hand.",
+            "type2": "Critical Thinking: Applying logical and objective reasoning to evaluate different perspectives, assumptions, and evidence, and to make informed decisions or judgments.",
+            "type3": "Creativity: Thinking outside the box and generating innovative ideas and solutions to problems, often by making unexpected connections or applying unconventional approaches.",
+            "type4": "Decision-Making: Assessing available options, weighing pros and cons, considering potential outcomes, and making timely and effective decisions.",
+            "type5": "Research Skills: Gathering relevant information from various sources, such as books, articles, data, or experts, to inform problem-solving processes and decision-making.",
+            "type6": "Problem Analysis: Systematically examining problems, identifying root causes or contributing factors, and understanding the underlying issues to develop targeted solutions.",
+            "type7": "Adaptability: Being open to change and willing to adjust strategies or approaches when faced with new information or unexpected challenges during the problem-solving process.",
+            "type8": "Collaboration: Engaging in effective communication and teamwork to gather diverse perspectives, leverage collective knowledge and expertise, and brainstorm solutions collaboratively.",
+            "type9": "Persistence and Resilience: Demonstrating determination, perseverance, and resilience when facing obstacles or setbacks during the problem-solving process, and maintaining motivation to find solutions.",
+            "type10": "Communication: Expressing ideas, explanations, and solutions clearly and effectively to others, both orally and in writing, to ensure understanding and alignment among team members or stakeholders."
+            }
+        }
+    },
+    {
+        "model": "user.course",
+        "pk": "4",
+        "fields": {
+            "card_image": "https://st4.depositphotos.com/34422958/37765/i/600/depositphotos_377659958-stock-photo-adaptability-skills-sign-page.jpg",
+            "card_title": "Adaptability",
+            "card_text": "Learn about Adaptability.",
+            "title": "What is Adaptability soft skills ?",
+            "description": "Adaptability soft skills refer to the ability to adjust, change, and thrive in various situations and environments. It involves being flexible, open-minded, and resilient in the face of challenges, uncertainties, and changing circumstances. Adaptability is crucial in today's dynamic and rapidly evolving world, as it allows individuals to navigate transitions, embrace new technologies, and effectively respond to shifting demands and expectations.",
+            "contents": {
+            "type1": "Flexibility: Being open to change and comfortable with ambiguity, willingly adjusting plans, strategies, or approaches when necessary to accommodate new information or circumstances.",
+            "type2": "Resilience: Having the ability to bounce back from setbacks, adversity, or failures, and maintain a positive attitude and motivation to keep moving forward.",
+            "type3": "Agility: Being able to quickly and efficiently adapt to changing situations, priorities, or roles, and make necessary adjustments to achieve desired outcomes.",
+            "type4": "Embracing Learning Opportunities: Having a growth mindset and being eager to acquire new knowledge, skills, and experiences, continuously seeking learning opportunities and self-improvement.",
+            "type5": "Problem-solving: Being resourceful and creative in finding solutions to challenges or obstacles that arise due to changing circumstances, thinking outside the box, and exploring different alternatives.",
+            "type6": "Decision-making: Being able to make timely and effective decisions, even when faced with limited information or uncertain conditions, and being comfortable with calculated risks.",
+            "type7": "Cultural Intelligence: Demonstrating an understanding and appreciation for diverse cultures, perspectives, and ways of working, and being able to adapt communication and behavior accordingly in multicultural environments.",
+            "type8": "Collaboration: Working effectively with diverse individuals or teams, fostering teamwork and cooperation, and adapting communication and work styles to achieve common goals.",
+            "type9": "Time Management: Effectively managing time and priorities, adjusting schedules and plans to accommodate changes, and being adaptable in balancing multiple tasks or projects.",
+            "type10": "Self-awareness: Recognizing one's own strengths, weaknesses, and preferences, and being able to adapt personal approaches or behaviors to better fit different situations or work with various individuals."
+            }
+        }
+    },
+    {
+        "model": "user.course",
+        "pk": "5",
+        "fields": {
+            "card_image": "https://st4.depositphotos.com/12218988/23000/i/600/depositphotos_230009752-stock-photo-strategy-strong-leadership-king-weak.jpg",
+            "card_title": "Leadership",
+            "card_text": "Learn about Leadership.",
+            "title": "What is Leadership  soft skills ?",
+            "description": "Leadership soft skills refer to the abilities and qualities that enable individuals to effectively lead, inspire, and influence others towards a common goal. Leadership involves guiding and motivating individuals or teams, making sound decisions, and fostering a positive and productive work environment. These skills are important not only for formal leadership positions but also for individuals who want to have a positive impact and influence others in various personal and professional contexts.",
+            "contents": {
+            "type1": "Communication: The ability to convey ideas, expectations, and feedback clearly and effectively, and to actively listen to others to foster understanding and collaboration.",
+            "type2": "Emotional Intelligence: The capacity to understand and manage one's own emotions, as well as to recognize and empathize with the emotions of others, fostering positive relationships and effective communication.",
+            "type3": "Vision and Strategic Thinking: Having a clear vision and long-term goals, as well as the ability to think strategically, analyze situations, and make informed decisions aligned with the vision.",
+            "type4": "Inspiring and Motivating: Being able to inspire and motivate others, creating a positive and engaging work environment, and encouraging individuals or teams to reach their full potential.",
+            "type5": "Integrity and Ethics: Demonstrating honesty, ethical behavior, and integrity in decision-making, actions, and interactions, serving as a role model for others.",
+            "type6": "Collaboration and Team Building: Building and nurturing effective teams, fostering collaboration, trust, and cooperation, and leveraging diverse talents and perspectives for collective success.",
+            "type7": "Delegation: Effectively assigning tasks and responsibilities to others, based on their strengths and development needs, and providing support and guidance as needed.",
+            "type8": "Decision-making: Making informed and timely decisions, considering various perspectives and available information, and taking responsibility for the outcomes.",
+            "type9": "Resilience and Adaptability: Demonstrating resilience in the face of challenges or setbacks, adapting to change, and inspiring others to remain focused and motivated during difficult times.",
+            "type10": "Coaching and Mentoring: Supporting the growth and development of others, providing feedback, guidance, and opportunities for learning and improvement."
+            }
+        }
+    },
+    {
+        "model": "user.course",
+        "pk": "6",
+        "fields": {
+            "card_image": "https://s1.1zoom.me/prev/595/Creative_Men_Light_bulb_Sitting_594034_600x400.jpg",
+            "card_title": "Creativity",
+            "card_text": "Learn about Creativity.",
+            "title": "What is Creativity soft skills ?",
+            "description": "Creativity soft skills refer to the cognitive and imaginative abilities that enable individuals to generate new ideas, think outside the box, and approach problems or tasks in innovative and unconventional ways. Creativity involves combining existing knowledge, experiences, and perspectives to produce original and valuable outcomes. These skills are highly sought after in today's rapidly changing and competitive world, as they can lead to innovative solutions, unique approaches, and fresh perspectives.",
+            "contents":{
+            "type1": "Originality: Having the ability to generate ideas or solutions that are novel and unique, going beyond conventional or expected approaches.",
+            "type2": "Open-Mindedness: Being receptive to new ideas, perspectives, and experiences, and willing to challenge assumptions or traditional thinking.",
+            "type3": "Problem-Solving: Applying creative thinking and approaches to solve complex problems or overcome challenges, exploring different possibilities and alternatives.",
+            "type4": "Imagination: Having a vivid and active imagination, being able to visualize concepts or ideas, and think in abstract or conceptual terms.",
+            "type5": "Curiosity: Being inquisitive and eager to explore new subjects, asking questions, and seeking out diverse sources of information and inspiration.",
+            "type6": "Risk-Taking: Willingness to take calculated risks and embrace uncertainty, being comfortable with failure and learning from setbacks.",
+            "type7": "Flexibility: Being able to adapt and shift perspectives or approaches when faced with new information or changing circumstances, being open to experimentation.",
+            "type8": "Collaboration: Engaging in brainstorming or collaborative processes to leverage the collective creativity and perspectives of a group, fostering an environment of collaboration and idea-sharing.",
+            "type9": "Reflection: Taking time for introspection and reflection, allowing for deeper insights and connections to emerge, and refining ideas or approaches based on feedback and self-evaluation.",
+            "type10": "Visualization and Communication: Effectively communicating creative ideas or concepts through various mediums, such as visual representations, storytelling, or persuasive communication techniques."
+            }
+        }
+    },
+    {
+        "model": "user.course",
+        "pk": "7",
+        "fields": {
+            "card_image": "https://s1.1zoom.me/prev/603/Internet_Coronavirus_Logo_Emblem_social_networks_602870_600x400.jpg",
+            "card_title": "Networking",
+            "card_text": "Learn about Networking.",
+            "title": "What is Networking soft skills ?",
+            "description": "Networking soft skills refer to the interpersonal abilities and strategies that facilitate building and maintaining professional relationships with others. Networking involves connecting with individuals, establishing rapport, and nurturing mutually beneficial connections for personal and professional growth. Effective networking skills can lead to opportunities for career advancement, collaboration, knowledge sharing, and access to resources.",
+            "contents":{
+            "type1": "Communication: The ability to initiate conversations, engage in meaningful dialogue, and articulate ideas or goals clearly and concisely.",
+            "type2": "Active Listening: Being attentive and fully present when engaging in conversations, showing genuine interest in others' perspectives, and demonstrating understanding through appropriate responses.",
+            "type3": "Relationship Building: Building and nurturing relationships by establishing trust, demonstrating reliability, and maintaining regular communication with contacts.",
+            "type4": "Empathy: Understanding and considering others' perspectives, needs, and interests, and fostering authentic connections through empathy and understanding.",
+            "type5": "Emotional Intelligence: The capacity to recognize and manage one's own emotions, as well as understand and navigate the emotions of others in networking interactions.",
+            "type6": "Reciprocity: Practicing the principle of reciprocity by offering assistance, resources, or support to others and being open to receiving help or opportunities in return.",
+            "type7": "Authenticity: Being genuine and true to oneself when networking, sharing personal experiences, values, and passions, and building connections based on authenticity.",
+            "type8": "Professionalism: Demonstrating professionalism in networking interactions by being respectful, reliable, and maintaining appropriate boundaries.",
+            "type9": "Follow-up and Follow-through: Proactively following up with contacts after networking events or meetings, and following through on commitments or promises made during conversations.",
+            "type10": "Online Networking: Utilizing digital platforms, such as professional social media networks or online communities, to expand and maintain professional networks, share knowledge, and engage in industry discussions."
+            }
+        }
+    },
+    {
+        "model": "user.course",
+        "pk": "8",
+        "fields": {
+            "card_image": "https://st.depositphotos.com/1081417/3881/i/450/depositphotos_38812195-stock-photo-empathy.jpg",
+            "card_title": "Empathy",
+            "card_text": "Learn about Empathy.",
+            "title": "What is Empathy soft skills ?",
+            "description": "Empathy soft skills refer to the ability to understand and share the feelings, perspectives, and experiences of others. It involves being able to put oneself in another person's shoes, showing compassion, and demonstrating understanding and support. Empathy plays a crucial role in building strong relationships, effective communication, and fostering a positive and inclusive environment.",
+            "contents":{
+            "type1": "Active Listening: Paying full attention to others when they are speaking, showing genuine interest, and providing verbal and non-verbal cues to demonstrate understanding and engagement.",
+            "type2": "Perspective-taking: Being able to see situations from another person's viewpoint, considering their thoughts, emotions, and experiences without judgment.",
+            "type3": "Emotional Awareness: Recognizing and understanding one's own emotions and being attuned to the emotions of others, allowing for a deeper connection and empathetic response.",
+            "type4": "Non-judgmental Attitude: Suspending personal biases and judgments, and approaching interactions with an open mind and acceptance of diverse perspectives.",
+            "type5": "Verbal and Non-verbal Communication: Using appropriate verbal language, tone of voice, and non-verbal cues, such as facial expressions and body language, to convey empathy and understanding.",
+            "type6": "Empathetic Response: Providing supportive and validating responses to others' emotions and experiences, demonstrating that their feelings are heard and acknowledged.",
+            "type7": "Conflict Resolution: Utilizing empathy to navigate and resolve conflicts, seeking mutual understanding, and finding collaborative solutions that address the needs and concerns of all parties involved.",
+            "type8": "Building Rapport: Establishing a sense of trust and connection with others, fostering an environment where they feel comfortable expressing themselves openly and honestly.",
+            "type9": "Cultural Sensitivity: Recognizing and respecting cultural differences, understanding how cultural norms and values influence individuals' experiences and perspectives, and adapting communication and behavior accordingly.",
+            "type10": "Supportive Mindset: Showing care and concern for others' well-being, offering assistance or support when needed, and providing a safe space for individuals to share their thoughts and feelings."
+            }
+        }
+    },
+    {
+        "model": "user.course",
+        "pk": "9",
+        "fields": {
+            "card_image": "https://images.squarespace-cdn.com/content/v1/5c55e43de8ba44b3f7ffaa7c/1592164151256-URRRSLRMTVLYO8YEOO87/handscrop.jpg",
+            "card_title": "Resilience",
+            "card_text": "Learn about Resilience.",
+            "title": "What is Resilience soft skills ?",
+            "description": "Resilience soft skills refer to the ability to bounce back, adapt, and thrive in the face of challenges, setbacks, or adversity. It involves having a positive mindset, inner strength, and the capacity to persevere and maintain productivity and well-being during difficult times. Resilience is crucial in navigating uncertainties, managing stress, and achieving long-term success in personal and professional domains.",
+            "contents":{
+            "type1": "Emotional Regulation: The ability to recognize and manage one's own emotions effectively, staying calm and composed in challenging situations, and avoiding being overwhelmed by negative emotions.",
+            "type2": "Optimism and Positive Thinking: Maintaining a positive outlook and focusing on opportunities, strengths, and solutions rather than dwelling on setbacks or failures.",
+            "type3": "Adaptability: Being flexible and open to change, adjusting plans and strategies when necessary, and being willing to embrace new approaches or perspectives.",
+            "type4": "Problem-Solving: Approaching problems or obstacles as opportunities for growth, employing creative and critical thinking to find solutions, and persevering in the face of setbacks.",
+            "type5": "Self-Confidence: Believing in one's abilities, strengths, and resilience, and having a positive self-image that supports perseverance and the ability to overcome challenges.",
+            "type6": "Self-Care: Prioritizing physical and mental well-being, practicing self-care activities such as exercise, relaxation, and maintaining healthy boundaries to build resilience and manage stress.",
+            "type7": "Social Support: Building and maintaining strong relationships with a support network of friends, family, mentors, or colleagues who provide emotional support, encouragement, and guidance during difficult times.",
+            "type8": "Growth Mindset: Adopting a mindset that views challenges and failures as opportunities for learning and growth, embracing a continuous learning and improvement mentality.",
+            "type9": "Self-Reflection: Engaging in self-reflection to gain insights into personal strengths, weaknesses, and areas for growth, and using this knowledge to develop resilience strategies and set realistic goals.",
+            "type10": "Goal Setting and Focus: Setting clear, attainable goals and maintaining focus and motivation to work towards them, even in the face of obstacles or setbacks."
+            }
+        }
+    }
+]
