@@ -17,7 +17,7 @@
           <li><a href="{% url 'adm' %}">Dashboard</a></li>
           <li><a href="{% url 'users' %}">Users</a></li>
           <li><a href="{% url 'cou_admin' %}">Courses</a></li>
-          <li><a href="{% url 'rps_admin' %}">Reports</a></li>
+          <li><a href="{% url 'feedback_admin' %}">Feedback</a></li>
           <li><a href="{% url 'login' %}">Log Out</a></li>
         </ul>
       </nav>
@@ -28,6 +28,7 @@
                     <th>Username</th>
                     <th>Password</th>
                     <th>Email</th>
+                    <th>Last Login</th>
                 </tr>
             </thead>
             <tbody>
@@ -36,6 +37,7 @@
                     <td>{{ user.username }}</td>
                     <td>{{ user.password }}</td>
                     <td>{{ user.email }}</td>
+                    <td>{{ user.last_login }}</td>
                 </tr>
                 {% endfor %}
             </tbody>

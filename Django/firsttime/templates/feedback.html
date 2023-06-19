@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="{% static 'css/detail.css' %}">
+    <link rel="stylesheet" href="{% static 'css/feedback.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -47,64 +47,59 @@
           </div>
     </div>
 	</nav>
-        <div class="detail-container">
-        {% for course in courses %}
-        {% if course_id %}
-          <h2>{{ course.title }}</h2>
-          <p>{{ course.description }}</p>
-
-          {% if course.contents %}
-              <h3>Contents:</h3>
-              <ul>
-                  {% for key, value in course.contents.items %}             
-                      <li>{{ value }}</li>
-                  {% endfor %}
-              </ul>
-          {% endif %}
-        {% endif %}
-        {% endfor %}
+    <div class="report-container">
+        <h1>Feedback</h1>
+        <p>If you have any problems or some feedback to make my page get improvement, please type it here and submit so that i can have your feedback ^^</p>
+        <form action="{% url 'feedback' %}" method="post">
+            {%csrf_token%}
+            <p>Your name:</p>
+            <input type="text" placeholder="type here..." name="user_name">
+            <p>Your feedback:</p>
+            <textarea placeholder="type here..." name="user_description"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="footer">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-4">
+            <h4>Hotline</h4>
+            <ul>
+            <li>123456789</li>
+            <li>987654321</li>
+            <li>555555555</li>
+            </ul>
         </div>
-          <div class="footer">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-4">
-                  <h4>Hotline</h4>
-                  <ul>
-                    <li>123456789</li>
-                    <li>987654321</li>
-                    <li>555555555</li>
-                  </ul>
-                </div>
-                <div class="col-md-4">
-                  <h4>Address</h4>
-                  <ul>
-                    <li>123 Main Street, Anytown, USA</li>
-                    <li>456 Elm Street, Othertown, USA</li>
-                    <li>789 Oak Street, Somewhere, USA</li>
-                  </ul>
-                </div>
-                <div class="col-md-4">
-                  <h4>Follow Us</h4>
-                  <ul class="list-inline">
-                    <li>
-                      <a href="https://www.youtube.com/channel/UCGIIzeVV5SY7GU97GIYBgnQ">
-                        <i class="fab fa-youtube"></i> YouTube
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.facebook.com/lmao098">
-                        <i class="fab fa-facebook"></i> Facebook
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://twitter.com/Whoknow098">
-                        <i class="fab fa-twitter"></i> Twitter
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="col-md-4">
+            <h4>Address</h4>
+            <ul>
+            <li>123 Main Street, Anytown, USA</li>
+            <li>456 Elm Street, Othertown, USA</li>
+            <li>789 Oak Street, Somewhere, USA</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h4>Follow Us</h4>
+            <ul class="list-inline">
+            <li>
+                <a href="https://www.youtube.com/channel/UCGIIzeVV5SY7GU97GIYBgnQ">
+                <i class="fab fa-youtube"></i> YouTube
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/lmao098">
+                <i class="fab fa-facebook"></i> Facebook
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/Whoknow098">
+                <i class="fab fa-twitter"></i> Twitter
+                </a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    </div>
   </body>
 </html>

@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login
-from .models import Course
+from .models import Course, Feedback
 import json
 
 def regis(request):
@@ -52,8 +52,9 @@ def users(request):
 def cou_adm(request):
     return render(request,'courses_admin.html')
 
-def rp_adm(request):
-    return render(request,'reports_admin.html')
+def feedback_adm(request):
+    customer_feedback = Feedback.objects.all()
+    return render(request,'feedback_admin.html', {'customer_feedback': customer_feedback})
 
 def about(request):
     return render(request,'about.html')
@@ -68,3 +69,12 @@ def detail(request, course_id):
 
 def prof(request):
     return render(request,'profile.html')
+
+def feedback(request):
+    if request.method == 'POST':
+        user_name = request.POST['user_name']
+        user_description = request.POST['user_description']
+        feedback_infor = Feedback.objects.create(user_name=user_name, user_feedback=user_description)
+        feedback_infor.save()
+    return render(request,'feedback.html')
+
