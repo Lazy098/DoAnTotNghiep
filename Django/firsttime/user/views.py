@@ -78,3 +78,5 @@ def feedback(request):
         feedback_infor.save()
     return render(request,'feedback.html')
 
+def setting(request):
+    return render(request,'setting.html')

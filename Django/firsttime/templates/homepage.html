@@ -39,7 +39,7 @@
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="{% url 'profile' %}">Profile</a>
-            <a class="dropdown-item" href="#">Settings</a>
+            <a class="dropdown-item" href="{% url 'setting' %}">Settings</a>
             <a class="dropdown-item" href="{% url 'feedback' %}">Feedback</a>
             <a class="dropdown-item" href="{% url 'about' %}">About Us</a>
             <div class="dropdown-divider"></div>
@@ -76,6 +76,11 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="definition">
+      <h4>What are softskills ?</h4>
+      <p>Soft skills, also known as "people skills" or "interpersonal skills," refer to a set of personal attributes and abilities that enable effective communication, collaboration, and interaction with others. Unlike technical or hard skills, which are specific to a particular job or industry, soft skills are transferable across various domains and are essential for success in both personal and professional contexts.</p>
     </div>
 
     <div class="content">
@@ -117,21 +122,14 @@
           </div>
         </div>
 
-        <div>
-        {% for course in courses %}
-          <h2>{{ course.title }}</h2>
-          <p>{{ course.description }}</p>
-
-          {% if course.contents %}
-              <h3>Contents:</h3>
-              <ul>
-                  {% for key, value in course.contents.items %}             
-                      <li>{{ value }}</li>
-                  {% endfor %}
-              </ul>
-          {% endif %}
-        {% endfor %}
+        <div class="col-md-12 text-center">
+          <h2>Top companies trust AHT</h2>
+          <p>Get your team access to AHT's courses</p>
+          <div class="d-flex justify-content-center">
+            <img src="https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/09/elegant-logo-design.jpg" alt="Company Logo">
+          </div>
         </div>
+    
           <div class="footer">
             <div class="container">
               <div class="row">

@@ -7,6 +7,7 @@ class Course(models.Model):
     title = models.CharField(max_length=200)
     description = models.TextField(blank=True, null=True)
     contents = models.TextField(blank=True, null=True)
+    videos = models.CharField(max_length=200, null=True)
 
 
     # Add other fields as necessary

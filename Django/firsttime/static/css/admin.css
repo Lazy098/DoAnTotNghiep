@@ -5,18 +5,15 @@ p {
   padding: 0;
 }
 
-/* Set the body and HTML to full height */
 body, html {
   height: 100%;
 }
 
-/* Create a flex container for the main content */
 body {
   display: flex;
   flex-direction: column;
 }
 
-/* Header styles */
 header {
   background-color: #333;
   color: #fff;
@@ -28,7 +25,6 @@ h1 {
   font-size: 24px;
 }
 
-/* Navigation styles */
 nav {
   background-color: #555;
   padding: 10px;
@@ -52,9 +48,8 @@ nav ul li a {
   font-weight: bold;
 }
 
-/* Main content styles */
 main {
-  flex: 1; /* Allow main to grow and push the footer to the bottom */
+  flex: 1; 
   margin: 20px;
 }
 
@@ -67,7 +62,6 @@ p {
   margin-bottom: 15px;
 }
 
-/* Footer styles */
 footer {
   background-color: #333;
   color: #fff;

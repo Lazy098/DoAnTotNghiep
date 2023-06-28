@@ -1,9 +1,8 @@
-
 .nav-link, .dropdown-item {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .nav-link i {
-    color: black;
-  }
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link i {
+  color: black;
+}

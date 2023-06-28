@@ -1,4 +1,6 @@
 make poromodo timer ( done )
-make calender 
 make icon have drop down ( have settings, about us, profiles and log out ) ( done )
-make a time when the user login 
+make a time when the user login ( done )
+make a settings demo 
+decor all the page 
+timer get API ( chay xong gui 1 lenh GET vao API minh build )
