@@ -18,4 +18,5 @@ urlpatterns = [
     path('course/<int:course_id>/', views.detail, name='detail'),
     path('feedback/', views.feedback, name='feedback'),
     path('setting/', views.setting, name='setting'),
-]
+    path('useredit/<int:post_id>', views.update_users, name='user_edit'),
+]   

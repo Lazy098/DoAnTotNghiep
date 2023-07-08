@@ -49,7 +49,7 @@
 	</nav>
     <div class="report-container">
         <h1>Feedback</h1>
-        <p>If you have any problems or some feedback to make my page get improvement, please type it here and submit so that i can have your feedback ^^</p>
+        <p class="report-title">If you have any problems or some feedback to make my page get improvement, please type it here and submit so that i can have your feedback ^^</p>
         <form action="{% url 'feedback' %}" method="post">
             {%csrf_token%}
             <p>Your name:</p>

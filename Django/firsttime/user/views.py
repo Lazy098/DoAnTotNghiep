@@ -1,8 +1,10 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login
+from .forms import UserForm
 from .models import Course, Feedback
 import json
+from django.contrib.auth.hashers import make_password
 
 def regis(request):
     if request.method == 'POST':
@@ -80,3 +82,17 @@ def feedback(request):
 
 def setting(request):
     return render(request,'setting.html')
+
+def update_users(request, post_id):
+    post = get_object_or_404(User, id=post_id)
+
+    if request.method == 'POST':
+        edit_form = UserForm(request.POST, instance=post)
+        if edit_form.is_valid():
+            user = edit_form.save(commit=False)
+            password = request.POST.get('password')
+            user.password = make_password(password)  # Set the new password using set_password method
+            user.save()
+            return redirect('users')
+
+    return render(request, 'edit_user.html', {'edit_form': edit_form, 'post_id': post_id})

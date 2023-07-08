@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="{% static 'css/user_admin.css' %}">
+    <script src="{% static 'javascript/user_admin.js ' %}"></script>
 </head>
 <body>
-        <header>
+      <header>
         <h1>Softskill System Admin</h1>
       </header>
       <nav>
@@ -38,7 +39,30 @@
                     <td>{{ user.password }}</td>
                     <td>{{ user.email }}</td>
                     <td>{{ user.last_login }}</td>
+                    <td>
+                      <button class="user-edit-form" type="button" onclick="showEditForm('{{ user.id }}')">Edit</button>
+                    </td>
                 </tr>
+                <div>
+                      <div id="user-edit-form-{{user.id}}" style="display: none;">
+                        <div class="edit-container">
+                          <div class="edit-contents">
+                            <form id="user-form-{{ user.id }}" method="POST" action="{% url 'user_edit' post_id=user.id %}">
+                              {% csrf_token %}
+                              <input type="hidden" id="user-edit-id" name="id" value="{{ user.id }}">
+                              <label for="username-input">Username:</label>
+                              <input id="username-input" name="username" value="{{ user.username }}">
+                              <label for="password-input">Password:</label>
+                              <input id="password-input" name="password" type="password">  <!-- Change the input type to password -->
+                              <label for="email-input">Email:</label>
+                              <input id="email-input" name="email" value="{{ user.email }}">
+                              <button type="submit">Submit</button>
+                            </form>                          
+                            <button class="user-edit-close" onclick="hideEditForm('{{ user.id }}')" type="button">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
                 {% endfor %}
             </tbody>
         </table>

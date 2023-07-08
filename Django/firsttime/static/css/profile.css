@@ -35,3 +35,15 @@
 .footer .list-inline li a i {
   font-size: 2em;
 }
+
+.profile h2 {
+  text-align: center;
+}
+
+.profile p {
+  text-align: center;
+}
+
+.profile form {
+  margin-left: 700px;
+}
