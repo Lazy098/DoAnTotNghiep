@@ -24,7 +24,8 @@
   font-size: 4rem;
   display: flex;
   text-align: center;
-  margin-left: 42%;
+  margin-left: 375px;
+
 }
 
 .separator {
@@ -128,4 +129,14 @@
 .resume-btn:active {
   background-color: rgb(0, 255, 0);
   color: black;
+}
+
+.plus {
+  cursor: pointer;
+  height: 30px;
+}
+
+.minus {
+  cursor: pointer;
+  height: 30px;
 }

@@ -35,6 +35,20 @@ function resetTimer() {
   isTimerPaused = false;
 }
 
+function increaseTime() {
+  if (!isTimerRunning && !isTimerPaused) {
+    totalSeconds += 60;
+    minutesLabel.textContent = pad(parseInt(totalSeconds / 60));
+  }
+}
+
+function decreaseTime() {
+  if (!isTimerRunning && !isTimerPaused && totalSeconds >= 60) {
+    totalSeconds -= 60;
+    minutesLabel.textContent = pad(parseInt(totalSeconds / 60));
+  }
+}
+
 function setTime() {
   if (totalSeconds > 0) {
     --totalSeconds;
@@ -54,8 +68,22 @@ function pad(val) {
   }
 }
 
+function setTime() {
+  if (totalSeconds > 0) {
+    --totalSeconds;
+    secondsLabel.textContent = pad(totalSeconds % 60);
+    minutesLabel.textContent = pad(parseInt(totalSeconds / 60));
+  } else {
+    resetTimer();
+    alert("TIME FOR A BREAK MY FRIEND!");
+  }
+}
+
+
 // Attach event listeners to buttons
 document.getElementById("start-btn").addEventListener("click", startTimer);
 document.getElementById("pause-btn").addEventListener("click", pauseTimer);
 document.getElementById("resume-btn").addEventListener("click", resumeTimer);
 document.getElementById("reset-btn").addEventListener("click", resetTimer);
+document.querySelector(".plus").addEventListener("click", increaseTime);
+document.querySelector(".minus").addEventListener("click", decreaseTime);
